@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+/* GLOBAL RULES */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  max-width: 1024px;
   display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  /* background-color: lightblue; */
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+  height: 62px;
+  width: 117px;
+  margin-bottom: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tv-show {
+  display: flex;
+  width: 600px;
+}
+
+.time {
+  font-weight: 700;
+  font-size: 12px;
+  flex: 0.8;
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  flex: 0.8;
+}
+
+.info {
+  flex: 5;
+}
+
+.title {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.type {
+  color: lightgray;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.duration {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.direct {
+  font-size: 12px;
+  color: #ff014b;
+  line-height: 15px;
+}
+
+.unseen {
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.details {
+  display: flex;
+  gap: 10px;
+  line-height: 15px;
+}
+
+hr {
+  color: red;
 }
