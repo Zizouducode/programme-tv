@@ -15,7 +15,7 @@ const Program = ({ data }) => {
                   <p className="type">{elem.type}</p>
                   <div className="details">
                     <p className="duration">{elem.duration}</p>
-                    {elem.direct ? <p className="direct">Direct</p> : ""}
+                    {elem.direct ? <p className="direct">• Direct</p> : ""}
                     {elem.isUnseen ? <p className="unseen">Inédit</p> : ""}
                   </div>
                 </div>

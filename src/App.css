@@ -51,7 +51,7 @@ body {
 }
 
 .type {
-  color: lightgray;
+  color: black;
   font-size: 12px;
   line-height: 15px;
 }
@@ -80,5 +80,5 @@ body {
 }
 
 hr {
-  color: red;
+  border: 1px solid #e5e5e5;
 }
